@@ -123,8 +123,19 @@ export const Footer: React.FC = () => {
 
         </div>
 
-        <div className="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-2">
+        <div className="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-3">
           <div>© {new Date().getFullYear()} {HOSPITAL_METADATA.name}. All rights reserved.</div>
+          <div className="flex items-center gap-1 text-slate-400">
+            <span>Made by</span>
+            <a
+              href="https://www.zeltriodigital.online"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-sky-400 hover:text-sky-300 hover:underline transition-colors"
+            >
+              Zeltrio Digital Services
+            </a>
+          </div>
           <div>Yamnampet, Rampally, Secunderabad, Telangana 501302</div>
         </div>
 
